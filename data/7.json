@@ -1,25 +1,25 @@
 {
-  "title": "Hobbies and Interests",
-  "content": [
-    {
-      "heading": "Wing Chun Kung Fu",
-      "text": "Studying for over 20 years",
-      "logo": "../img/wc.jpg"
-    },
-    {
-      "heading": "Kayaking",
-      "text": "A bit of exercise to calm the mind",
-      "logo": "../img/kayak.jpg"
-    },
-    {
-      "heading": "Embedded Systems Programming",
-      "text": "A passion of coding and creating",
-      "logo": "../img/arduino.png"
-    },
-     {
-      "heading": "Gliding",
-      "text": "A new hobby, but has been a dream for years",
-      "logo": "../img/glider.jpg"
-    }
-  ]
+    "title": "Hobbies and Interests",
+    "content": [
+        {
+            "heading": "Wing Chun Kung Fu",
+            "text": "Studying for over 20 years",
+            "logo": "../img/wc.jpg"
+        },
+        {
+            "heading": "Kayaking",
+            "text": "A bit of exercise to calm the mind",
+            "logo": "../img/kayak.jpg"
+        },
+        {
+            "heading": "Embedded Systems Programming",
+            "text": "A passion of coding and creating",
+            "logo": "../img/arduino.png"
+        },
+        {
+            "heading": "Gliding",
+            "text": "A new hobby, but has been a dream for years",
+            "logo": "../img/glider.jpg"
+        }
+    ]
 }
