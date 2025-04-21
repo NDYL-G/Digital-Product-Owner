@@ -1,28 +1,22 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const path = window.location.pathname;
+  const isRoot = path.endsWith("/") || path.endsWith("index.html");
+  const base = isRoot ? "includes" : "../includes";
 
-window.addEventListener('DOMContentLoaded', () => {
-  const root = location.pathname.includes('/html/') ? '../' : './';
+  const inject = (id, file) => {
+    fetch(`${base}/${file}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`${file} not found`);
+        return res.text();
+      })
+      .then((html) => {
+        document.getElementById(id).innerHTML = html;
+      })
+      .catch((err) => {
+        console.error(`Injection failed for ${file}:`, err);
+      });
+  };
 
-  // Load header
-  fetch(root + 'includes/header.html')
-    .then(res => res.text())
-    .then(data => {
-      const header = document.getElementById('header');
-      if (header) header.innerHTML = data;
-    });
-
-  // Load footer
-  fetch(root + 'includes/footer.html')
-    .then(res => res.text())
-    .then(data => {
-      const footer = document.getElementById('footer');
-      if (footer) {
-        footer.innerHTML = data;
-
-        // Set current year after footer is injected
-        const yearSpan = document.getElementById('year');
-        if (yearSpan) {
-          yearSpan.textContent = new Date().getFullYear();
-        }
-      }
-    });
+  inject("header", "header.html");
+  inject("footer", "footer.html");
 });
