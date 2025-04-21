@@ -26,11 +26,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Optional logo support
           if (item.logo) {
-            const img = document.createElement("img");
-            img.src = item.logo;
-            img.alt = item.heading || item.company || "Logo";
-            img.className = "card-logo";
-            card.appendChild(img);
+            if (Array.isArray(item.logo)) {
+              item.logo.forEach((src) => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = item.heading || item.company || "Logo";
+                img.className = "card-logo";
+                card.appendChild(img);
+              });
+            } else {
+              const img = document.createElement("img");
+              img.src = item.logo;
+              img.alt = item.heading || item.company || "Logo";
+              img.className = "card-logo";
+              card.appendChild(img);
+            }
           }
 
           // Paragraph-only string
