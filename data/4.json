@@ -6,14 +6,23 @@
       "logo": "../img/ap.jpg",
       "dates": "2023 – Present",
       "title": "End Point Assessor and Moderator",
-      "text": "Assessor, moderator, and SME of technical competencies across IT, project management and product development disciplines. </p>Provided feedback aligned to safety, best practices, and industry expectations."
+      "text": [
+        "Assessor, moderator, and SME of technical competencies across IT, project management and product development disciplines.",
+        "Provided feedback aligned to safety, best practices, and industry expectations."
+      ]
     },
     {
       "company": "NTS Solutions (TUPE to Wavenet)",
       "logo": "../img/nts.jpg",
       "dates": "2017 – 2023",
       "title": "Pre-Sales Engineer | Solutions Architect",
-      "text": "Acted as Product Owner and Scrum Lead for enterprise cloud and ICT solutions. </p>Led stakeholder workshops to uncover hidden requirements and co-created solutions. <p>Designed and delivered complex contact centre systems with a focus on reliability and security. <p>Applied Agile-inspired practices such as iterative planning and regular team check-ins. <p>Contributed to RFPs, technical proposals, and customer solution roadmaps."
+      "text": [
+        "Acted as Product Owner and Scrum Lead for enterprise cloud and ICT solutions.",
+        "Led stakeholder workshops to uncover hidden requirements and co-created solutions.",
+        "Designed and delivered complex contact centre systems with a focus on reliability and security.",
+        "Applied Agile-inspired practices such as iterative planning and regular team check-ins.",
+        "Contributed to RFPs, technical proposals, and customer solution roadmaps."
+      ]
     },
     {
       "company": "Incom Business Systems",
