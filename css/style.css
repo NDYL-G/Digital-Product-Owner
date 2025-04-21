@@ -83,3 +83,10 @@ a:hover {
     padding: 1rem;
   }
 }
+
+.card-logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-bottom: 0.5em;
+  display: block;
+}
