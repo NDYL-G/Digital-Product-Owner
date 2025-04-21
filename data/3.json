@@ -1,9 +1,21 @@
 {
   "title": "Projects and Achievements",
   "content": [
-    "Digital Product Ownership for Mission-Critical Systems: Served as the Product Owner on a digital transformation project involving AWS-hosted services and Docker-based microservices. Applied adaptive project delivery methods to prioritise business requirements, implement secure architecture, and improve operational scalability. Achieved a 20% cost reduction while maintaining high standards of safety and system resilience.",
-    "Cross-Sector Stakeholder Management: Delivered successful outcomes across banking, ICT, and public sector projects. Adapted communication and delivery styles to align with diverse stakeholder groups, ensuring shared goals and timelines were met.",
-    "Business Process Optimisation: Identified inefficiencies in ICT support workflows. Designed automation scripts and simplified UI interfaces to reduce support response time by 30% while improving user satisfaction.",
-    "Managing Competing Stakeholder Interests: Navigated contractual complexities involving third-party dependencies to deliver a compliant solution without compromising technical integrity or business relationships."
+    {
+      "heading": "Digital Product Ownership for Mission-Critical Systems",
+      "text": "Served as the Product Owner on a digital transformation project involving AWS-hosted services and Docker-based microservices. Applied adaptive project delivery methods to prioritise business requirements, implement secure architecture, and improve operational scalability. Achieved a 20% cost reduction while maintaining high standards of safety and system resilience."
+    },
+    {
+      "heading": "Cross-Sector Stakeholder Management",
+      "text": "Delivered successful outcomes across banking, ICT, and public sector projects. Adapted communication and delivery styles to align with diverse stakeholder groups, ensuring shared goals and timelines were met."
+    },
+    {
+      "heading": "Business Process Optimisation",
+      "text": "Identified inefficiencies in ICT support workflows. Designed automation scripts and simplified UI interfaces to reduce support response time by 30% while improving user satisfaction."
+    },
+    {
+      "heading": "Managing Competing Stakeholder Interests",
+      "text": "Navigated contractual complexities involving third-party dependencies to deliver a compliant solution without compromising technical integrity or business relationships."
+    }
   ]
 }
