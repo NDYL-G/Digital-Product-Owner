@@ -24,10 +24,12 @@
     {
       "heading": "Professional Certifications",
       "text": "Mitel, Siemens/Unify, LG iPecs, Nortel certifications",
-      "logo": "../img/mitel.png",
-      "logo": "../img/siemens.png",
-      "logo": "../img/lgipecs.png",
-      "logo": "../img/nortel.png"
+      "logo": [
+      "../img/mitel.png",
+      "../img/siemens.png",
+      "../img/lgipecs.png",
+      "../img/nortel.png"
+      ]
     },
     {
       "heading": "Cisco Academy",
