@@ -25,23 +25,28 @@ document.addEventListener("DOMContentLoaded", () => {
           card.className = "card";
 
           // Optional logo support
-          if (item.logo) {
-            if (Array.isArray(item.logo)) {
-              item.logo.forEach((src) => {
-                const img = document.createElement("img");
-                img.src = src;
-                img.alt = item.heading || item.company || "Logo";
-                img.className = "card-logo";
-                card.appendChild(img);
-              });
-            } else {
+         if (item.logo) {
+          if (Array.isArray(item.logo)) {
+            const logoContainer = document.createElement("div");
+            logoContainer.className = "card-logos";
+        
+            item.logo.forEach((src) => {
               const img = document.createElement("img");
-              img.src = item.logo;
+              img.src = src;
               img.alt = item.heading || item.company || "Logo";
               img.className = "card-logo";
-              card.appendChild(img);
-            }
+              logoContainer.appendChild(img);
+            });
+        
+            card.appendChild(logoContainer);
+          } else {
+            const img = document.createElement("img");
+            img.src = item.logo;
+            img.alt = item.heading || item.company || "Logo";
+            img.className = "card-logo";
+            card.appendChild(img);
           }
+        }
 
           // Paragraph-only string
           if (typeof item === "string") {
