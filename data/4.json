@@ -1,10 +1,35 @@
 {
   "title": "Professional Experience",
   "content": [
-    "Accelerate People (2023 – Present) – End Point Assessor and Moderator: Assessor, moderator, and SME of technical competencies across IT, project management and product development disciplines. Provided feedback aligned to safety, best practices, and industry expectations.",
-    "NTS Solutions (TUPE to Wavenet) (2017–2023) – Pre-Sales Engineer | Solutions Architect: Acted as Product Owner and Scrum Lead for enterprise cloud and ICT solutions. Led stakeholder workshops to uncover hidden requirements and co-created solutions. Designed and delivered complex contact centre systems with a focus on reliability and security. Applied Agile-inspired practices such as iterative planning and regular team check-ins. Contributed to RFPs, technical proposals, and customer solution roadmaps.",
-    "Incom Business Systems (2015 – 2017) – Senior Technical Consultant: Delivered pre-sales consultancy and technical designs for business-critical systems. Facilitated requirements gathering and post-implementation support.",
-    "Datasharp UK (2006 – 2015) – Senior Telecoms Engineer: Led full lifecycle implementations and stakeholder training. Designed and supported enterprise ICT infrastructure.",
-    "Earlier Roles: Panasonic Communications – Electronic Design Engineer, 2003–2006; Evolution Training and Development – Senior Quality Manager, 2002–2003; Vision Training and Recruitment Ltd – Trainer/Assessor and Internal Verifier, 2001–2002; Nortel Networks – Electronic Diagnostic Engineer, 1999–2001; British Army (REME) – Craftsman, 1997–1999; Nuclear Electric – C&I Technician / Apprentice, 1991–1997"
+    {
+      "company": "Accelerate People",
+      "dates": "2023 – Present",
+      "title": "End Point Assessor and Moderator",
+      "text": "Assessor, moderator, and SME of technical competencies across IT, project management and product development disciplines. Provided feedback aligned to safety, best practices, and industry expectations."
+    },
+    {
+      "company": "NTS Solutions (TUPE to Wavenet)",
+      "dates": "2017 – 2023",
+      "title": "Pre-Sales Engineer | Solutions Architect",
+      "text": "Acted as Product Owner and Scrum Lead for enterprise cloud and ICT solutions. Led stakeholder workshops to uncover hidden requirements and co-created solutions. Designed and delivered complex contact centre systems with a focus on reliability and security. Applied Agile-inspired practices such as iterative planning and regular team check-ins. Contributed to RFPs, technical proposals, and customer solution roadmaps."
+    },
+    {
+      "company": "Incom Business Systems",
+      "dates": "2015 – 2017",
+      "title": "Senior Technical Consultant",
+      "text": "Delivered pre-sales consultancy and technical designs for business-critical systems. Facilitated requirements gathering and post-implementation support."
+    },
+    {
+      "company": "Datasharp UK",
+      "dates": "2006 – 2015",
+      "title": "Senior Telecoms Engineer",
+      "text": "Led full lifecycle implementations and stakeholder training. Designed and supported enterprise ICT infrastructure."
+    },
+    {
+      "company": "Earlier Roles",
+      "dates": "",
+      "title": "",
+      "text": "Panasonic Communications – Electronic Design Engineer, 2003–2006; Evolution Training and Development – Senior Quality Manager, 2002–2003; Vision Training and Recruitment Ltd – Trainer/Assessor and Internal Verifier, 2001–2002; Nortel Networks – Electronic Diagnostic Engineer, 1999–2001; British Army (REME) – Craftsman, 1997–1999; Nuclear Electric – C&I Technician / Apprentice, 1991–1997"
+    }
   ]
 }
