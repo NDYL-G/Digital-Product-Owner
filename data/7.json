@@ -3,17 +3,17 @@
   "content": [
     {
       "heading": "Wing Chun Kung Fu",
-      "text": "",
+      "text": "Studying for over 20 years",
       "logo": "../img/wc.jpg"
     },
     {
       "heading": "Kayaking",
-      "text": "",
+      "text": "A bit of exercise to calm the mind",
       "logo": "../img/kayak.jpg"
     },
     {
       "heading": "Embedded Systems Programming",
-      "text": "",
+      "text": "A passion of coding",
       "logo": "../img/arduino.png"
     }
   ]
