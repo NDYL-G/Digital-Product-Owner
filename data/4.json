@@ -40,40 +40,40 @@
     },
     {
       "company": "Panasonic Communications",
-      "logo": "../imgpanasonic.webp",
+      "logo": "../img/panasonic.webp",
       "dates": "2003–2006",
       "title": "Electronic Design Engineer",
       "text": "TBC"
     },
-     {
+    {
       "company": "Evolution Training and Development",
       "logo": "../img/datasharp.jpg",
       "dates": "2002–2003",
       "title": "Senior Quality Manager",
       "text": "TBC"
     },
-     {
-      "company": "Vision Training and Recruitment Lt",
+    {
+      "company": "Vision Training and Recruitment Ltd",
       "logo": "../img/datasharp.jpg",
       "dates": "2001–2002",
       "title": "Trainer/Assessor and Internal Verifier",
       "text": "TBC"
     },
-     {
+    {
       "company": "Nortel Networks",
       "logo": "../img/nortel.png",
       "dates": "1999–2001",
       "title": "Electronic Diagnostic Engineer",
       "text": "TBC"
     },
-     {
+    {
       "company": "British Army (REME)",
       "logo": "../img/army.png",
       "dates": "1997–1999",
       "title": "Craftsman",
       "text": "TBC"
     },
-    
+    {
       "company": "Nuclear Electric",
       "logo": "../img/army.png",
       "dates": "1991–1997",
