@@ -6,32 +6,41 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch(`../data/${section}.json`)
     .then((res) => res.json())
     .then((data) => {
-      // Title
+      // Page title
       const title = document.createElement("h1");
       title.textContent = data.title;
       contentDiv.appendChild(title);
 
-      // Optional subtitle (e.g. professional headline)
+      // Optional subtitle (e.g., job title string)
       if (data.subtitle) {
         const subtitle = document.createElement("h2");
         subtitle.textContent = data.subtitle;
         contentDiv.appendChild(subtitle);
       }
 
-      // Smart rendering based on structure
+      // Content handling
       if (Array.isArray(data.content)) {
         data.content.forEach((item) => {
           const card = document.createElement("div");
           card.className = "card";
 
-          // Text-only (like a paragraph or hobby)
+          // Optional logo support
+          if (item.logo) {
+            const img = document.createElement("img");
+            img.src = item.logo;
+            img.alt = item.heading || item.company || "Logo";
+            img.className = "card-logo";
+            card.appendChild(img);
+          }
+
+          // Paragraph-only string
           if (typeof item === "string") {
             const p = document.createElement("p");
             p.textContent = item;
             card.appendChild(p);
           }
 
-          // Skill-style: heading + text
+          // Heading + paragraph (skills, achievements, hobbies, education)
           else if (item.heading && item.text && !item.company) {
             const h3 = document.createElement("h3");
             h3.textContent = item.heading;
@@ -41,15 +50,23 @@ document.addEventListener("DOMContentLoaded", () => {
             card.appendChild(p);
           }
 
-          // Work Experience-style
+          // Work experience-style block
           else if (item.company) {
             const h3 = document.createElement("h3");
             h3.textContent = item.company;
+
             const meta = document.createElement("p");
             meta.style.fontWeight = "bold";
-            meta.textContent = `${item.title || ""}${item.title && item.dates ? " | " : ""}${item.dates || ""}`;
+            meta.textContent = [
+              item.title || "",
+              item.dates ? `(${item.dates})` : ""
+            ]
+              .filter(Boolean)
+              .join(" ");
+
             const p = document.createElement("p");
             p.textContent = item.text;
+
             card.appendChild(h3);
             if (meta.textContent.trim()) card.appendChild(meta);
             card.appendChild(p);
