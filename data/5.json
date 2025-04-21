@@ -39,7 +39,7 @@
     {
       "heading": "Open University",
       "text": "Electronic Communications, 2006",
-      "logo": "../img/ou.svg"
+      "logo": "../img/ou.png"
     },
     {
       "heading": "BTEC HNC",
@@ -57,12 +57,21 @@
     },
     {
       "heading": "Management and Assessment Awards",
-      "text": "NVQ Level 4 Management and Training/Development (2003), D32 & D33 (Assessor), D34 (Internal Verifier), C26 & D11 (Mentor), 2002",
-      "logo": "../img/eal.jpg"
+      "text": [
+        "NVQ Level 4 Management and Training/Development (2003)",
+        "D32 & D33 (Assessor), 2002",
+        "D34 (Internal Verifier), 2002",
+        "C26 & D11 (Mentor)", 2002",
+      ]
+        "logo": "../img/eal.jpg"
     },
     {
       "heading": "Engineering & Technical",
-      "text": "NVQ Level 3 – Control and Instrumentation Equipment, BTEC Electrical/Electronic Engineering, City and Guilds – Maintenance Craft Studies in Measurement and Control 225, City and Guilds – Basic Engineering Competence",
+      "text": [
+        "NVQ Level 3 – Control and Instrumentation Equipment",
+        "BTEC Electrical/Electronic Engineering",
+        "City and Guilds – Maintenance Craft Studies in Measurement and Control 225",
+        "City and Guilds – Basic Engineering Competence",
       "logo": [
         "../img/nvq.png",
         "../img/btec.png",
@@ -72,7 +81,7 @@
     {
       "heading": "Secondary Education",
       "text": "9 x GCSEs (including Mathematics and English), 1986–1995",
-      "logo": "../img/gcse.png"
+      "logo": "../img/ocr.png"
     }
   ]
 }
