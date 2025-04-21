@@ -19,7 +19,7 @@
     {
       "heading": "Silver Peak",
       "text": "Software Derived WAN, 2021",
-      "logo": "../img/silverpeak.png"
+      "logo": "../img/silverpeak.webp"
     },
     {
       "heading": "Professional Certifications",
@@ -37,12 +37,12 @@
     {
       "heading": "Open University",
       "text": "Electronic Communications, 2006",
-      "logo": "../img/ou.png"
+      "logo": "../img/ou.svg"
     },
     {
       "heading": "BTEC HNC",
       "text": "Electrical/Electronic Engineering, 1997",
-      "logo": "../img/BTEC.png"
+      "logo": "../img/btec.png"
     },
     {
       "heading": "Additional Qualifications",
@@ -51,7 +51,7 @@
     {
       "heading": "Advanced Office Technology",
       "text": "Integrated Business Technology Stage 3 (Advanced MS Office)",
-      "logo": "../img/ibt.png"
+      "logo": "../img/ocr.png"
     },
     {
       "heading": "Management and Assessment Awards",
@@ -63,7 +63,7 @@
       "text": "NVQ Level 3 – Control and Instrumentation Equipment, BTEC Electrical/Electronic Engineering, City and Guilds – Maintenance Craft Studies in Measurement and Control 225, City and Guilds – Basic Engineering Competence",
       "logo": "../img/nvq.png",
       "logo": "../img/btec.png",
-      "logo": "../img/candg.png"
+      "logo": "../img/c&g.webp"
     },
     {
       "heading": "Secondary Education",
