@@ -4,17 +4,17 @@
     {
       "heading": "Wing Chun Kung Fu",
       "text": "",
-      "logo": "../img/kungfu.png"
+      "logo": "../img/wc.jpg"
     },
     {
       "heading": "Kayaking",
       "text": "",
-      "logo": "../img/kayak.png"
+      "logo": "../img/kayak.jpg"
     },
     {
       "heading": "Embedded Systems Programming",
       "text": "",
-      "logo": "../img/chip.png"
+      "logo": "../img/arduino.png"
     }
   ]
 }
