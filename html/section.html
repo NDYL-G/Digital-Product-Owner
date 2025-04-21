@@ -7,31 +7,15 @@
   <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="icon" href="../img/favicon.ico" />
   <script src="../js/loadContent.js" defer></script>
+  <script src="../inject.js" defer></script>
 </head>
 <body>
-  <header class="navbar">
-    <div class="nav-container">
-      <a href="../index.html" class="nav-logo">
-        <img src="../img/logo.svg" alt="Logo" class="logo" />
-      </a>
-      <nav class="nav-links">
-        <a class="nav-button" href="section.html?section=0">Summary</a>
-        <a class="nav-button" href="section.html?section=1">Skills</a>
-        <a class="nav-button" href="section.html?section=2">Product Focus</a>
-        <a class="nav-button" href="section.html?section=3">Projects</a>
-        <a class="nav-button" href="section.html?section=4">Experience</a>
-        <a class="nav-button" href="section.html?section=5">Education</a>
-        <a class="nav-button" href="section.html?section=7">Hobbies</a>
-      </nav>
-    </div>
-  </header>
+  <div id="header"></div>
 
   <main class="container" id="content">
-    <!-- Dynamic content will be inserted here -->
+    <!-- Section-specific content gets injected here -->
   </main>
 
-  <footer>
-    &copy; Gareth Lyddon — For employer use only. No contact details are shared publicly.
-  </footer>
+  <div id="footer"></div>
 </body>
 </html>
