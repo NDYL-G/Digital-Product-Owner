@@ -1,13 +1,37 @@
 {
   "title": "Key Skills and Expertise",
   "content": [
-    "Safety-First Mindset: Prioritising operational safety, security, and compliance in regulated industries",
-    "Cloud & Technical Architecture: AWS, GCP, Azure (basic); Docker, Kubernetes, scalable microservices",
-    "Digital Product Ownership & Project Leadership: Managing product direction, stakeholder alignment, and adaptable delivery methods including Waterfall and Agile-inspired approaches",
-    "Strategic Stakeholder Collaboration: Proven ability to build trusted relationships across a broad stakeholder base—from operational teams to senior leadership and C-level executives—ensuring alignment, engagement, and delivery success",
-    "Stakeholder Engagement: Strong communicator, effective at aligning technical and business interests",
-    "DevOps Practices: CI/CD, Git, version control, automation pipelines",
-    "Business Systems and Applications: SQL, Excel, Power BI, CRM and asset management platforms",
-    "Agile & Project Methodologies: Scrum, Waterfall, PRINCE2 Foundation certified (Practitioner in progress)"
+    {
+      "heading": "Safety-First Mindset",
+      "text": "Prioritising operational safety, security, and compliance in regulated industries."
+    },
+    {
+      "heading": "Cloud & Technical Architecture",
+      "text": "Experience with AWS, GCP, Azure (basic); Docker, Kubernetes, and scalable microservices."
+    },
+    {
+      "heading": "Digital Product Ownership & Project Leadership",
+      "text": "Managing product direction, stakeholder alignment, and adaptable delivery methods including Waterfall and Agile-inspired approaches."
+    },
+    {
+      "heading": "Strategic Stakeholder Collaboration",
+      "text": "Proven ability to build trusted relationships across a broad stakeholder base—from operational teams to senior leadership and C-level executives—ensuring alignment, engagement, and delivery success."
+    },
+    {
+      "heading": "Stakeholder Engagement",
+      "text": "Strong communicator, effective at aligning technical and business interests."
+    },
+    {
+      "heading": "DevOps Practices",
+      "text": "Skilled in CI/CD, Git, version control, and deployment automation pipelines."
+    },
+    {
+      "heading": "Business Systems and Applications",
+      "text": "Working knowledge of SQL, Excel, Power BI, CRM and asset management platforms."
+    },
+    {
+      "heading": "Agile & Project Methodologies",
+      "text": "Scrum, Waterfall, and PRINCE2 Foundation certified (Practitioner in progress)."
+    }
   ]
 }
