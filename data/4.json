@@ -43,42 +43,44 @@
             "logo": "../img/panasonic.png",
             "dates": "2003–2006",
             "title": "Electronic Design Engineer",
-            "text": "TBC"
+            "text": [
+                "Quality Assurance intregal to implementing ISO 90001 and ensuring complaince.",
+                "Part of the electronic and firmware team, managing projects and integrating 3rd party components."
         },
         {
             "company": "Evolution Training and Development",
             "logo": "../img/evolution.jpg",
             "dates": "2002–2003",
             "title": "Senior Quality Manager",
-            "text": "TBC"
+            "text": ""
         },
         {
             "company": "Vision Training and Recruitment Ltd",
             "logo": "../img/vision.jpg",
             "dates": "2001–2002",
             "title": "Trainer/Assessor and Internal Verifier",
-            "text": "TBC"
+            "text": ""
         },
         {
             "company": "Nortel Networks",
             "logo": "../img/nortel.png",
             "dates": "1999–2001",
             "title": "Electronic Diagnostic Engineer",
-            "text": "TBC"
+            "text": ""
         },
         {
             "company": "British Army (REME)",
             "logo": "../img/army.png",
             "dates": "1997–1999",
             "title": "Craftsman",
-            "text": "TBC"
+            "text": ""
         },
         {
             "company": "Nuclear Electric",
             "logo": "../img/nuclear.gif",
             "dates": "1991–1997",
             "title": "C&I Technician/Apprentice",
-            "text": "TBC"
+            "text": ""
         }
     ]
 }
