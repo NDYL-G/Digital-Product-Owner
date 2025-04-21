@@ -105,3 +105,9 @@ body {
 .nav-dropdown:hover .nav-dropdown-content {
   display: block;
 }
+
+.logo {
+  max-height: 40px;
+  width: auto;
+  display: block;
+}
