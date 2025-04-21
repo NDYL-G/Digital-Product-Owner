@@ -18,8 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
       data.content.forEach(text => {
         const p = document.createElement("p");
-        p.textContent = text;
-        target.appendChild(p);
+        if (text.startsWith("---")) {
+          const hr = document.createElement("hr");
+          target.appendChild(hr);
+        } else {
+          p.textContent = text;
+          target.appendChild(p);
+        }
       });
     })
     .catch(error => {
