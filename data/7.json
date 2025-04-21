@@ -1,9 +1,20 @@
 {
   "title": "Hobbies and Interests",
   "content": [
-    "Wing Chun Kung Fu",
-    "Kayaking",
-    "Paddle Boarding",
-    "Embedded Systems Programming"
+    {
+      "heading": "Wing Chun Kung Fu",
+      "text": "",
+      "logo": "../img/kungfu.png"
+    },
+    {
+      "heading": "Kayaking",
+      "text": "",
+      "logo": "../img/kayak.png"
+    },
+    {
+      "heading": "Embedded Systems Programming",
+      "text": "",
+      "logo": "../img/chip.png"
+    }
   ]
 }
