@@ -89,7 +89,10 @@ a:hover {
   max-height: 80px;
   margin-bottom: 0.5em;
   display: block;
+  margin: 0.25rem 0.5rem 0.5rem 0;
+  vertical-align: middle;
 }
+
 .card {
   padding: 1em;
   margin: 1em 0;
@@ -97,5 +100,9 @@ a:hover {
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.card img.card-logo + img.card-logo {
+  margin-left: 0.25rem;
 }
 
