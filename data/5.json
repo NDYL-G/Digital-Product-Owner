@@ -9,7 +9,8 @@
         },
         {
             "heading": "PRINCE2 Foundation",
-            "text": "2024 (Practitioner in Progress)",
+            "text": "(Practitioner in Progress)",
+            "dates": "2024",
             "logo": "../img/prince2.png"
         },
         {
@@ -19,7 +20,8 @@
         },
         {
             "heading": "Silver Peak",
-            "text": "Software Derived WAN, 2021",
+            "text": "Software Derived WAN",
+            "dates": "2021",
             "logo": "../img/silverpeak.webp"
         },
         {
@@ -43,18 +45,21 @@
         },
         {
             "heading": "Cisco Academy",
-            "text": "2-year training course for CISCO CCNA, 2008",
+            "text": "2-year training course for CISCO CCNA",
+            "dates": "2008",
             "logo": "../img/cisco.png"
         },
         {
             "heading": "Open University",
-            "text": "Electronic Communications, 2006",
+            "text": "Electronic Communications",
+            "dates": "2006",
             "logo": "../img/ou.png"
         },
         
         {
             "heading": "Advanced Office Technology",
-            "text": "Integrated Business Technology Stage 3 (Advanced MS Office), 2003",
+            "text": "Integrated Business Technology Stage 3 (Advanced MS Office)",
+            "dates": "2003",
             "logo": "../img/ocr.png"
         },
         {
@@ -69,7 +74,8 @@
         },
         {
             "heading": "BTEC HNC",
-            "text": "Electrical/Electronic Engineering, 1997",
+            "text": "Electrical/Electronic Engineering",
+            "dates": "1997",
             "logo": "../img/btec.png"
         },
         {
@@ -88,7 +94,8 @@
         },
         {
             "heading": "Secondary Education",
-            "text": "9 x GCSEs (including Mathematics and English), 1986–1995",
+            "text": "9 x GCSEs (including Mathematics and English)",
+            "dates": "1986–1995",
             "logo": "../img/ocr.png"
         }
     ]
