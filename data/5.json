@@ -50,11 +50,7 @@
             "text": "Electronic Communications, 2006",
             "logo": "../img/ou.png"
         },
-        {
-            "heading": "BTEC HNC",
-            "text": "Electrical/Electronic Engineering, 1997",
-            "logo": "../img/btec.png"
-        },
+        
         {
             "heading": "Advanced Office Technology",
             "text": "Integrated Business Technology Stage 3 (Advanced MS Office), 2003",
@@ -69,6 +65,11 @@
                 "C26 & D11 (Mentor), 2002"
             ],
             "logo": "../img/eal.jpg"
+        },
+        {
+            "heading": "BTEC HNC",
+            "text": "Electrical/Electronic Engineering, 1997",
+            "logo": "../img/btec.png"
         },
         {
             "heading": "Engineering & Technical",
