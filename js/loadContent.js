@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch(`../data/${section}.json`)
     .then((res) => res.json())
     .then((data) => {
+      // Page Title
       const title = document.createElement("h1");
       title.textContent = data.title;
       contentDiv.appendChild(title);
 
+      // Optional subtitle
       if (data.subtitle) {
         const subtitle = document.createElement("h2");
         subtitle.textContent = data.subtitle;
@@ -21,10 +23,19 @@ document.addEventListener("DOMContentLoaded", () => {
           const card = document.createElement("div");
           card.className = "card";
 
+          // === Plain string item (paragraph-only sections) ===
+          if (typeof item === "string") {
+            const p = document.createElement("p");
+            p.textContent = item;
+            card.appendChild(p);
+            contentDiv.appendChild(card);
+            return;
+          }
+
           const row = document.createElement("div");
           row.className = "card-row";
 
-          // --- Logo (top-left) ---
+          // === Logo (optional) ===
           if (item.logo) {
             const logoWrapper = document.createElement("div");
             logoWrapper.className = "card-logo-col";
@@ -48,18 +59,18 @@ document.addEventListener("DOMContentLoaded", () => {
             row.appendChild(logoWrapper);
           }
 
-          // --- Text content ---
+          // === Content Column ===
           const contentWrapper = document.createElement("div");
           contentWrapper.className = "card-content-col";
 
-          // Main heading
+          // Heading (company or generic)
           if (item.company || item.heading) {
             const h3 = document.createElement("h3");
             h3.textContent = item.company || item.heading;
             contentWrapper.appendChild(h3);
           }
 
-          // Title (for job role)
+          // Title (e.g. job role)
           if (item.title) {
             const role = document.createElement("p");
             role.className = "card-role";
@@ -67,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
             contentWrapper.appendChild(role);
           }
 
-          // Dates (for job role)
+          // Dates
           if (item.dates) {
             const dates = document.createElement("p");
             dates.className = "card-dates";
@@ -75,8 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
             contentWrapper.appendChild(dates);
           }
 
-          // Text (paragraph or array)
+          // Text block (supports both strings and arrays)
           const pBlock = document.createElement("div");
+
           if (Array.isArray(item.text)) {
             item.text.forEach((line) => {
               const p = document.createElement("p");
