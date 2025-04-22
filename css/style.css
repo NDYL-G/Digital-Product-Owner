@@ -31,13 +31,10 @@ body {
   align-items: flex-start;
 }
 
-.card-logo-col {
-  flex: 0 0 auto;
-}
-
 .card-logo {
   max-height: 50px;
-  width: auto;
+  max-width: 100%;
+  object-fit: contain;
   display: block;
 }
 
@@ -47,4 +44,14 @@ body {
 
 .card-role {
   margin: 0.25rem 0 0;
-  font-weight
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.card-dates {
+  margin: 0 0 0.75rem;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #777;
+}
