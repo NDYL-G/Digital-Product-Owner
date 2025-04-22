@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: #f8f8f8;
 }
 
 .container {
@@ -19,31 +20,38 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.card h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #222;
-}
-
 .card-row {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
 }
 
+.card-logo-col {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .card-logo {
   max-height: 50px;
-  max-width: 100%;
+  max-width: 60px;
   object-fit: contain;
-  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .card-content-col {
   flex: 1;
 }
 
+.card-content-col h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+  color: #222;
+}
+
 .card-role {
-  margin: 0.25rem 0 0;
+  margin: 0;
   font-weight: bold;
   font-size: 0.95rem;
   color: #444;
@@ -54,4 +62,8 @@ body {
   font-style: italic;
   font-size: 0.85rem;
   color: #777;
+}
+
+.card-content-col p {
+  margin: 0.25rem 0;
 }
