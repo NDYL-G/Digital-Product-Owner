@@ -29,14 +29,20 @@
             "logo": "../img/incom.webp",
             "dates": "2015 – 2017",
             "title": "Senior Technical Consultant",
-            "text": "Delivered pre-sales consultancy and technical designs for business-critical systems. Facilitated requirements gathering and post-implementation support."
+            "text": [
+                "Delivered pre-sales consultancy and technical designs for business-critical systems.",
+                "Facilitated requirements gathering and post-implementation support."
+            ]
         },
         {
             "company": "Datasharp UK",
             "logo": "../img/datasharp.jpg",
             "dates": "2006 – 2015",
             "title": "Senior Telecoms Engineer",
-            "text": "Led full lifecycle implementations and stakeholder training. Designed and supported enterprise ICT infrastructure."
+            "text": [
+                "Led full lifecycle implementations and stakeholder training.",
+                "Designed and supported enterprise ICT infrastructure."
+            ]
         },
         {
             "company": "Panasonic Communications",
