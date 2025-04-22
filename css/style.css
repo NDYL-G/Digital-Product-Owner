@@ -1,108 +1,50 @@
-/* the corporate colours are 
-#FD9803 Vivid orange
-#112656 Very dark blue
-*/
-
-/* === RESET & BASE === */
-html, body {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
-  font-family: system-ui, sans-serif;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
 }
 
-body {
-  padding-top: 70px;  /* ensures content is not hidden under fixed header */
-  padding-bottom: 80px; /* ensures content is not hidden under fixed footer */
-  background-color: #fdfdfd;
-  color: #112656;
-}
-
-/* === CONTAINER === */
 .container {
-  flex: 1;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/* === LOGO === */
-.logo {
-  max-width: 200px;
-  display: block;
-  margin-bottom: 1rem;
- vertical-align: middle;
-}
-
-/* === TYPOGRAPHY & LISTS === */
-h1, h2, h3 {
-  margin-top: 1rem;
-}
-
-ul {
-  text-align: left;
-  padding-left: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
-}
-
-/* === LINKS === */
-a {
-  color: #FD9803;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* === CARDS === */
-.card {
-  background: white;
-  border-radius: 0.5rem;
+  max-width: 900px;
+  margin: 2rem auto;
   padding: 1rem;
-  margin: 1.5rem 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* === RESPONSIVE SPACING === */
-@media screen and (max-width: 768px) {
-  body {
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
 
-  .container {
-    padding: 1rem;
-  }
+.card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.card-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.card-logo-col {
+  flex: 0 0 auto;
 }
 
 .card-logo {
-  max-width: 80px;
-  max-height: 80px;
-  margin-bottom: 0.5em;
+  max-height: 50px;
+  width: auto;
   display: block;
-  margin: 0.25rem 0.5rem 0.5rem 0;
-  vertical-align: middle;
 }
 
-.card {
-  padding: 1em;
-  margin: 1em 0;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+.card-content-col {
+  flex: 1;
 }
 
-.card img.card-logo + img.card-logo {
-  margin-left: 0.25rem;
-}
-
+.card-role {
+  margin: 0.25rem 0 0;
+  font-weight
